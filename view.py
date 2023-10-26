@@ -48,6 +48,8 @@ while sair == 0:
             finalizar = input("Digite o número da tarefa que deseja marcar como finalizada > ")
             finalizarTarefa = ControllerFinalizarTarefa(finalizar)
             listarTarefa = ControllerListarTarefa()
+            if listarTarefa = True:
+            
             os.system("pause")
 
         case "7":

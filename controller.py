@@ -44,9 +44,11 @@ class ControllerEditarTarefa():
 
 
 class ControllerFinalizarTarefa():
-     def __init__(self, finalizar):
+     def __init__(self, finalizar, status):
           self.finalizar = finalizar
+          self.status = status
+          status
           ControllerFinalizarTarefa = TODO.FinalizarTarefa()
-          if ControllerFinalizarTarefa.FinalizarTarefa(self.finalizar) == True:
+          if ControllerFinalizarTarefa.FinalizarTarefa(self.finalizar, self.status) == True:
                print("Tarefa Finalizada com Sucesso!")
-               
+               print("Tarefa Marcada ")
